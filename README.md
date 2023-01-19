@@ -23,5 +23,5 @@ bundle install
 Программа запускается из командной строки простой командой:
 
 ```
-ruby main.rb
+bundle exec ruby main.rb
 ```
