@@ -45,7 +45,9 @@ class Game
   def word
     @letters.join
   end
-
+  
+  private
+  
   def normalize_letter(letter)
     return "Е" if letter == "Ё"
     return "И" if letter == "Й"
